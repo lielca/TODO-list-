@@ -1,0 +1,66 @@
+.App {
+  background-color: #282c34;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.Modal {
+    background-color: #fff; /* set the background color */
+    border-radius: 5px;
+    max-width: 800px; /* set the maximum width */
+    max-height: 90vh; /* set the maximum height */
+    overflow-y: auto; /* add a scrollbar if needed */
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+
+  .grid-item2 {
+      opacity: 0.6;
+      text-align: center;
+      border-bottom: 1px solid ;
+   }
+
+   .grid-item3 {
+    text-align: left;
+
+  }
+
+  .my-select {
+    font-size: 16px;
+    color: #333;
+    background-color: #ccc;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    padding: 4px;
+  }
+  
+
+
+  
+
+
+
